@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blank Page with JS</title>
+  <style>
+    /* Optional: Remove margin and padding for a clean blank look */
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+
+<script src="./Widget_file_Sample.js"></script>
+<script src="https://apps.mypurecloud.com/widgets/9.0/cxbus.min.js"
+    onload="javascript:CXBus.configure({debug:false,pluginsPath:'https://apps.mypurecloud.com/widgets/9.0/plugins/'}); CXBus.loadFile('./Widget_file_Sample.js').done(function(){CXBus.loadPlugin('widgets-core')});"></script>
+<script>
+
+</body>
+</html>
